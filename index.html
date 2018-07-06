@@ -3,13 +3,13 @@
     <script type="text/javascript">
     function load()
     {
-    window.location.replace('msteams://teams.microsoft.com/l/home');
+    window.location.href = 'msteams://teams.microsoft.com/l/home';
     }
     
     setTimeout(loadOnDelay, 300);
     
     function loadOnDelay(){
-    window.location.replace('https://teams.microsoft.com/downloads');
+    window.location.href = 'https://teams.microsoft.com/downloads';
     }
     
     
@@ -18,6 +18,6 @@
     </head>
 
     <body onload="load()">
-    <h1>TEST LAUNCHER PAGE!</h1>
+    <h1>TEST LAUNCHER PAGE UPDATED WITH HREF!</h1>
     </body>
     </html> 
